@@ -3,6 +3,9 @@ name: run main.py
 on:
   schedule:
     - cron: '* * * * *' # Every minute
+    
+permissions:
+  contents: write
 
 jobs:
   build:
