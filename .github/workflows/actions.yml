@@ -1,10 +1,10 @@
 name: run main_wetsounds.py
 
-# on:
-  # schedule:
-   # - cron: '* * * * *' # Every minutes
+on:
+  schedule:
+  - cron: '45 13 * * *' # Every minutes
     
-on: workflow_dispatch
+# on: workflow_dispatch
     
 permissions:
   contents: write
