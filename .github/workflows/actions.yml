@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '* * * * *' # Every minute
+    - cron: '* * * * *' # Every minutes
     
 permissions:
   contents: write
