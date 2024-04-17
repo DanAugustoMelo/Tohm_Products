@@ -1,6 +1,9 @@
 import logging
 import logging.handlers
 import os
+import datetime
+import pandas as pd
+from openpyxl import load_workbook
 
 import requests
 
@@ -23,12 +26,28 @@ except KeyError:
     #logger.info("Token not available!")
     #raise
 
-
 if __name__ == "__main__":
     logger.info(f"Token value: {SOME_SECRET}")
 
-    r = requests.get('https://weather.talkpython.fm/api/weather/?city=Berlin&country=DE')
-    if r.status_code == 200:
-        data = r.json()
-        temperature = data["forecast"]["temp"]
-        logger.info(f'Weather in Berlin: {temperature}')
+    # Adicionando a variável de data e hora atual
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    current_time = datetime.datetime.now().strftime("%H:%M:%S")
+    
+    # Adicionando a variável indicando que o código rodou
+    code_status = "O código rodou"
+
+    # Criando um DataFrame pandas com as informações
+    df = pd.DataFrame({"Nome": [code_status], "Data": [current_date], "Hora": [current_time]})
+    
+    # Verificando se o arquivo Excel já existe
+    if os.path.isfile("rodou.xlsx"):
+        # Carregando o arquivo Excel existente
+        wb = load_workbook("rodou.xlsx")
+        ws = wb.active
+        # Adicionando uma nova linha com as informações atuais
+        ws.append(df.iloc[0].tolist())  # Adicionando apenas a primeira linha do DataFrame
+        # Salvando as alterações no arquivo Excel
+        wb.save("rodou.xlsx")
+    else:
+        # Caso o arquivo Excel não exista, criar um novo com o DataFrame
+        df.to_excel("rodou.xlsx", index=False)
