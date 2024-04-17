@@ -2,7 +2,7 @@ name: run main_wetsounds.py
 
 on:
   schedule:
-  - cron: '45 13 * * *' # Every minutes
+  - cron: '0 9 * * SUN-SAT' # Every minutes
     
 # on: workflow_dispatch
     
