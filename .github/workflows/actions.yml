@@ -1,8 +1,10 @@
 name: run main.py
 
-on:
-  schedule:
-    - cron: '* * * * *' # Every minutes
+# on:
+  # schedule:
+   # - cron: '* * * * *' # Every minutes
+    
+on: workflow_dispatch
     
 permissions:
   contents: write
