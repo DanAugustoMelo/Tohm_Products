@@ -24,6 +24,7 @@
 2024-04-21 09:23:26,579 - __main__ - INFO - Token value: 1234
 2024-04-22 09:24:10,630 - __main__ - INFO - Token value: 1234
 2024-04-22 16:53:46,319 - __main__ - INFO - Token value: 1234
+<<<<<<< Updated upstream
 2024-04-23 09:22:07,291 - __main__ - INFO - Token value: 1234
 2024-04-24 09:22:43,710 - __main__ - INFO - Token value: 1234
 2024-04-25 09:23:06,660 - __main__ - INFO - Token value: 1234
@@ -31,3 +32,6 @@
 2024-04-27 09:19:47,012 - __main__ - INFO - Token value: 1234
 2024-04-28 09:19:56,052 - __main__ - INFO - Token value: 1234
 2024-04-29 09:25:12,854 - __main__ - INFO - Token value: 1234
+=======
+2024-04-22 13:59:32,014 - __main__ - INFO - Token value: Token not available!
+>>>>>>> Stashed changes
