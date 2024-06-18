@@ -104,10 +104,10 @@ if __name__ == "__main__":
     cursor = conn.cursor()
 
     # Lendo os links da planilha Excel
-    planilha = pd.read_excel('Input_links_wet_sounds2.xlsx')
+    planilha = pd.read_excel('Input_links_wet_sounds.xlsx')
 
     # Carregando a planilha de produtos existente
-    workbook = openpyxl.load_workbook('Output_informacoes_produtos_wet_sounds2.xlsx')
+    workbook = openpyxl.load_workbook('Output_informacoes_produtos_wet_sounds.xlsx')
     sheet = workbook.active
 
     # Verificando se as colunas já existem na planilha
