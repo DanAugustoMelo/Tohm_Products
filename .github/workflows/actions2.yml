@@ -30,7 +30,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python main_cerwin_vega.py
+        run: python main_jlaudiousa.py
           
       - name: commit files
         run: |
