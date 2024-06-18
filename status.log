@@ -111,3 +111,23 @@
 2024-06-18 17:22:08,102 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
 2024-06-18 17:22:09,224 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
 2024-06-18 17:22:20,080 - __main__ - INFO - Processo concluído com sucesso.
+2024-06-18 17:39:39,797 - __main__ - INFO - Token value: 1234
+2024-06-18 17:40:02,161 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:40:03,449 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:40:04,787 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:40:44,733 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-8-fa-s4-w-wet-sounds-8-free-air-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-8-fa-s4-w-wet-sounds-8-free-air-marine-subwoofer/
+2024-06-18 17:40:48,932 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-10-fa-s2-b-wet-sounds-10-free-air-2-ohm-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-10-fa-s2-b-wet-sounds-10-free-air-2-ohm-marine-subwoofer/
+2024-06-18 17:40:50,020 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-10-fa-s4-w-wet-sounds-10-free-air-4-ohm-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-10-fa-s4-w-wet-sounds-10-free-air-4-ohm-marine-subwoofer/
+2024-06-18 17:41:41,152 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:41:43,516 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/zero-12-enc-wet-sounds-zero-series-12-rotomold-enclosure/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/zero-12-enc-wet-sounds-zero-series-12-rotomold-enclosure/
+2024-06-18 17:42:01,182 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/stealth-10-white-ultra-hd-soundbar/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/stealth-10-white-ultra-hd-soundbar/
+2024-06-18 17:42:18,486 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/stealth-10-surge-b-soundbar/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/stealth-10-surge-b-soundbar/
+2024-06-18 17:42:21,017 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:42:26,515 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:42:27,508 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:42:28,573 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:43:02,660 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:43:08,264 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:43:09,403 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:43:10,368 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:43:19,587 - __main__ - INFO - Processo concluído com sucesso.
