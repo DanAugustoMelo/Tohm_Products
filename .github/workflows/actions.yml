@@ -4,7 +4,7 @@ name: run main_wetsounds.py
   #schedule:
   #- cron: '0 9 * * SUN-SAT' # Every minutes
     
-# on: workflow_dispatch
+on: workflow_dispatch
     
 permissions:
   contents: write
