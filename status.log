@@ -91,3 +91,23 @@
 2024-06-18 14:33:29,514 - __main__ - INFO - Processo concluído com sucesso.
 2024-06-18 14:37:58,918 - __main__ - INFO - Token value: 1234
 2024-06-18 14:38:03,830 - __main__ - INFO - Processo concluído com sucesso.
+2024-06-18 17:18:16,284 - __main__ - INFO - Token value: 1234
+2024-06-18 17:18:42,877 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:18:44,064 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:18:46,012 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:19:30,922 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-8-fa-s4-w-wet-sounds-8-free-air-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-8-fa-s4-w-wet-sounds-8-free-air-marine-subwoofer/
+2024-06-18 17:19:35,565 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-10-fa-s2-b-wet-sounds-10-free-air-2-ohm-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-10-fa-s2-b-wet-sounds-10-free-air-2-ohm-marine-subwoofer/
+2024-06-18 17:19:36,817 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/revo-10-fa-s4-w-wet-sounds-10-free-air-4-ohm-marine-subwoofer/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/revo-10-fa-s4-w-wet-sounds-10-free-air-4-ohm-marine-subwoofer/
+2024-06-18 17:20:33,091 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:20:35,783 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/zero-12-enc-wet-sounds-zero-series-12-rotomold-enclosure/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/zero-12-enc-wet-sounds-zero-series-12-rotomold-enclosure/
+2024-06-18 17:20:55,360 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/stealth-10-white-ultra-hd-soundbar/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/stealth-10-white-ultra-hd-soundbar/
+2024-06-18 17:21:14,390 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/stealth-10-surge-b-soundbar/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/stealth-10-surge-b-soundbar/
+2024-06-18 17:21:16,204 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:21:22,412 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:21:23,620 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:21:24,830 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:22:00,922 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/STEALTH-AS-6/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/STEALTH-AS-6/
+2024-06-18 17:22:07,090 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XS-S/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XS-S/
+2024-06-18 17:22:08,102 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
+2024-06-18 17:22:09,224 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
+2024-06-18 17:22:20,080 - __main__ - INFO - Processo concluído com sucesso.
