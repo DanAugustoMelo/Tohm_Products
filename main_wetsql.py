@@ -135,7 +135,7 @@ if __name__ == "__main__":
     conn.close()
 
     # Salvando a planilha
-    workbook.save('Output_informacoes_produtos_wet_sounds2.xlsx')
+    workbook.save('Output_informacoes_produtos_wet_sounds.xlsx')
 
     logger.info("Processo concluído com sucesso.")
 
