@@ -158,3 +158,4 @@
 2024-06-20 11:12:36,585 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-XW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-XW-B/
 2024-06-20 11:12:37,751 - __main__ - ERROR - Erro ao processar o link https://shop.wetsounds.com/REVO-6-SW-B/: 404 Client Error: Not Found for url: https://shop.wetsounds.com/REVO-6-SW-B/
 2024-06-20 11:12:47,881 - __main__ - INFO - Processo concluído com sucesso.
+2024-06-21 09:01:16,251 - __main__ - INFO - Token value: 1234
