@@ -78,7 +78,7 @@ def extrair_informacoes(link, cursor, sheet):
 
         # Inserção dos dados no banco de dados (ADICIONAR ORIGEM)
         sql = """
-        INSERT INTO products__price_wet_sounds (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
+        INSERT INTO products_price_wet_sounds (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
         VALUES (?, ?, ?, ?, ?, ?)
         """
         valores = (
