@@ -1115,3 +1115,6 @@
 2024-06-25 12:58:01,684 - __main__ - INFO - Conexão com SQL Azure fechada.
 2024-06-25 12:58:03,859 - __main__ - INFO - Planilha salva com sucesso.
 2024-06-25 12:58:03,859 - __main__ - INFO - Processo concluído com sucesso.
+2024-06-25 13:11:30,736 - __main__ - INFO - Token value: 1234
+2024-06-25 13:11:33,606 - __main__ - ERROR - Erro durante a execução do processo: cannot unpack non-iterable NoneType object
+2024-06-25 13:11:33,606 - __main__ - INFO - Processo concluído com sucesso.
