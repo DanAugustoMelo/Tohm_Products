@@ -1106,3 +1106,12 @@
 2024-06-25 12:48:45,235 - __main__ - INFO - Conexão com SQL Azure fechada.
 2024-06-25 12:48:47,197 - __main__ - INFO - Planilha salva com sucesso.
 2024-06-25 12:48:47,197 - __main__ - INFO - Processo concluído com sucesso.
+2024-06-25 12:57:55,652 - __main__ - INFO - Token value: 1234
+2024-06-25 12:57:57,632 - __main__ - INFO - Conexão com SQL Azure estabelecida com sucesso.
+2024-06-25 12:57:59,672 - __main__ - INFO - Planilhas configuradas com sucesso.
+2024-06-25 12:57:59,673 - __main__ - INFO - Processando link https://shop.wetsounds.com/revo-8-xw-w-v3-wet-sounds-revo-series-8-high-output-component-style-marine-coaxial-speakers/
+2024-06-25 12:58:00,480 - __main__ - INFO - Processando link https://shop.wetsounds.com/zero-8-xz-w/
+2024-06-25 12:58:01,562 - __main__ - INFO - Alterações salvas no banco de dados.
+2024-06-25 12:58:01,684 - __main__ - INFO - Conexão com SQL Azure fechada.
+2024-06-25 12:58:03,859 - __main__ - INFO - Planilha salva com sucesso.
+2024-06-25 12:58:03,859 - __main__ - INFO - Processo concluído com sucesso.
