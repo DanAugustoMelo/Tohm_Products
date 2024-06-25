@@ -46,10 +46,14 @@ logger.info(f"Token value: {SOME_SECRET}")
 
 # ======================== FUNÇÃO PARA EXTRAÇÃO DE INFORMAÇÕES ========================
 
-def extrair_informacoes(link, linha):
+def extrair_informacoes(link, cursor, sheet):
     try:
+        # Web scraping da página do produto
         requisicao = requests.get(link)
+        requisicao.raise_for_status()
         site = BeautifulSoup(requisicao.text, "html.parser")
+
+        # Extração das informações do produto
         nome_produto = site.find(class_='productView-title')
         preco_produto = site.find(class_='price price--withoutTax price-primary')
         sku_produto = site.find(class_='productView-info-value productView-info-value--sku')
@@ -60,7 +64,7 @@ def extrair_informacoes(link, linha):
             image_link = image_tag.get('data-src', '')  # Usando .get() para evitar erros caso 'data-src' não esteja presente
         else:
             image_link = ''
-        
+
         # Tratamento do preço
         if preco_produto:
             preco_texto = preco_produto.text
@@ -177,7 +181,7 @@ if __name__ == "__main__":
 
         # Iterando sobre cada linha da planilha de links e extraindo informações
         for idx, row in planilha.iterrows():
-            link = row['Links']
+            link = row['Link']
             logger.info(f"Processando link {link}")
             extrair_informacoes(link, cursor, sheet)
 
