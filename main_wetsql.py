@@ -21,7 +21,7 @@ def configure_logger():
         backupCount=1,
         encoding="utf8",
     )
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levellevelname)s - %(message)s")
     logger_file_handler.setFormatter(formatter)
     logger.addHandler(logger_file_handler)
     return logger
@@ -59,7 +59,6 @@ def extrair_informacoes(link, cursor, sheet):
         sku_produto = site.find(class_='productView-info')
         image_tag = site.find('img', class_='productView-image--default-custom')
         image_link = image_tag.get('data-src', '') if image_tag else ''
-        origem = 'Wet Sounds USA'
 
         # Tratamento do preço
         if preco_produto:
@@ -88,7 +87,7 @@ def extrair_informacoes(link, cursor, sheet):
             sku_produto.text if sku_produto else '',
             image_link,
             datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            origem
+            'Wet Sounds USA'  # Valor da nova coluna origem
         )
         cursor.execute(sql, valores)
 
@@ -108,40 +107,49 @@ def extrair_informacoes(link, cursor, sheet):
 # ======================= CONFIGURAÇÃO DA CONEXÃO COM O SQL AZURE ======================
 
 def connect_to_azure_sql():
-    server = 'webscrapingtohm.database.windows.net'
-    database = 'Daily_Scraping_Brands_Prices'
-    username = 'admingeral'
-    password = 'Tohm@master'
-    driver = '{ODBC Driver 17 for SQL Server}'
+    try:
+        server = 'webscrapingtohm.database.windows.net'
+        database = 'Daily_Scraping_Brands_Prices'
+        username = 'admingeral'
+        password = 'Tohm@master'
+        driver = '{ODBC Driver 17 for SQL Server}'
+        conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}')
+        cursor = conn.cursor()
+        return conn, cursor
+    except Exception as e:
+        logger.error(f"Erro ao conectar ao SQL Azure: {e}")
+        return None, None
 
-    conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}')
-    cursor = conn.cursor()
 
 # ======================== LEITURA E CONFIGURAÇÃO DAS PLANILHAS ========================
 
 def configure_spreadsheets():
-    # Lendo os links da planilha Excel
-    planilha = pd.read_excel('Input_links_wet_sounds.xlsx')
+    try:
+        # Lendo os links da planilha Excel
+        planilha = pd.read_excel('Input_links_wet_sounds.xlsx')
 
-    # Carregando a planilha de produtos existente
-    workbook = openpyxl.load_workbook('Output_informacoes_produtos_wet_sounds.xlsx')
-    sheet = workbook.active
+        # Carregando a planilha de produtos existente
+        workbook = openpyxl.load_workbook('Output_informacoes_produtos_wet_sounds.xlsx')
+        sheet = workbook.active
 
-    # Verificando se as colunas já existem na planilha (ADICIONAR ORIGEM)
-    if 'Nome do Produto' not in sheet['A1'].value:
-        sheet['A1'] = 'Nome do Produto'
-    if 'Preço do Produto' not in sheet['B1'].value:
-        sheet['B1'] = 'Preço do Produto'
-    if 'SKU do Produto' not in sheet['C1'].value:
-        sheet['C1'] = 'SKU do Produto'
-    if 'Imagem do Produto' not in sheet['D1'].value:
-        sheet['D1'] = 'Imagem do Produto'
-    if 'Data da Extração' not in sheet['E1'].value:
-        sheet['E1'] = 'Data da Extração'
-    if 'Origem' not in sheet['F1'].value:  # Nova coluna origem
-        sheet['F1'] = 'Origem'
+        # Verificando se as colunas já existem na planilha (ADICIONAR ORIGEM)
+        if 'Nome do Produto' not in sheet['A1'].value:
+            sheet['A1'] = 'Nome do Produto'
+        if 'Preço do Produto' not in sheet['B1'].value:
+            sheet['B1'] = 'Preço do Produto'
+        if 'SKU do Produto' not in sheet['C1'].value:
+            sheet['C1'] = 'SKU do Produto'
+        if 'Imagem do Produto' not in sheet['D1'].value:
+            sheet['D1'] = 'Imagem do Produto'
+        if 'Data da Extração' not in sheet['E1'].value:
+            sheet['E1'] = 'Data da Extração'
+        if 'Origem' not in sheet['F1'].value:  # Nova coluna origem
+            sheet['F1'] = 'Origem'
 
-    return planilha, workbook, sheet
+        return planilha, workbook, sheet
+    except Exception as e:
+        logger.error(f"Erro ao configurar planilhas: {e}")
+        return None, None, None
 
 
 # ================================ EXECUÇÃO DO PROCESSO ================================
@@ -150,10 +158,16 @@ if __name__ == "__main__":
     try:
         # Conectando ao SQL Azure
         conn, cursor = connect_to_azure_sql()
+        if conn is None or cursor is None:
+            raise Exception("Falha ao conectar ao SQL Azure.")
+
         logger.info("Conexão com SQL Azure estabelecida com sucesso.")
 
         # Configurando as planilhas
         planilha, workbook, sheet = configure_spreadsheets()
+        if planilha is None or workbook is None or sheet is None:
+            raise Exception("Falha ao configurar as planilhas.")
+
         logger.info("Planilhas configuradas com sucesso.")
 
         # Iterando sobre cada linha da planilha de links e extraindo informações
@@ -179,5 +193,3 @@ if __name__ == "__main__":
         logger.error(f"Erro durante a execução do processo: {e}")
 
     logger.info("Processo concluído com sucesso.")
-
-
