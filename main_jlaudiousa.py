@@ -191,7 +191,7 @@ if __name__ == "__main__":
         logger.info("Conexão com SQL Azure fechada.")
 
         # Salvando a planilha
-        workbook.save('Output_informacoes_produtos_wet_sounds.xlsx')
+        workbook.save('02.Output_informacoes_produtos_jlaudio.xlsx')
         logger.info("Planilha salva com sucesso.")
 
     except Exception as e:
