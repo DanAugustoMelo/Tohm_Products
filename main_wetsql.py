@@ -59,6 +59,7 @@ def extrair_informacoes(link, cursor, sheet):
         sku_produto = site.find(class_='productView-info')
         image_tag = site.find('img', class_='productView-image--default-custom')
         image_link = image_tag.get('data-src', '') if image_tag else ''
+        origem = 'Wet Sounds USA'
 
         # Tratamento do preço
         if preco_produto:
@@ -87,7 +88,7 @@ def extrair_informacoes(link, cursor, sheet):
             sku_produto.text if sku_produto else '',
             image_link,
             datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            'Wet Sounds USA'  # Valor da nova coluna origem
+            origem
         )
         cursor.execute(sql, valores)
 
@@ -112,10 +113,9 @@ def connect_to_azure_sql():
     username = 'admingeral'
     password = 'Tohm@master'
     driver = '{ODBC Driver 17 for SQL Server}'
+
     conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}')
     cursor = conn.cursor()
-    return conn, cursor
-
 
 # ======================== LEITURA E CONFIGURAÇÃO DAS PLANILHAS ========================
 
