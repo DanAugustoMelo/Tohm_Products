@@ -2,7 +2,7 @@ name: run main_faitalpro.py
 
 on:
   schedule:
-  - cron: '30 17 * * SUN-SAT'
+  - cron: '30 18 * * SUN-SAT'
     
 #on: workflow_dispatch
     
