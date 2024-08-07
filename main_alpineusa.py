@@ -89,7 +89,7 @@ def extrair_informacoes(link, linha):
 
         # Inserção dos dados no banco de dados (ADICIONAR ORIGEM)
         sql = """
-        INSERT INTO products_price_jlaudio (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
+        INSERT INTO products_price_alpineusa (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
         VALUES (?, ?, ?, ?, ?, ?)
         """
         valores = (

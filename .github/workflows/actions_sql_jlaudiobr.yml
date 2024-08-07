@@ -2,7 +2,7 @@ name: run main_jlaudiobr.py
 
 on:
   schedule:
-  - cron: '0 9 * * SUN-SAT' # Every minutes
+  - cron: '30 17 * * SUN-SAT'
     
 #on: workflow_dispatch
     

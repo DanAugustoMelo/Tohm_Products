@@ -93,7 +93,7 @@ def nova_extracao(link, cursor, sheet):
 
         # Inserção dos dados no banco de dados
         sql = """
-        INSERT INTO products_price_prv_audio (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
+        INSERT INTO products_price_PRV_audio (nome_produto, preco_produto, sku_produto, image_link, data_extracao, origem)
         VALUES (?, ?, ?, ?, ?, ?)
         """
         valores = (

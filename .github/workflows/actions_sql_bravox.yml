@@ -1,10 +1,10 @@
 name: run main_bravox.py
 
-#on:
-  #schedule:
-  #- cron: '0 12 * * SUN-SAT' # Every minutes
+on:
+  schedule:
+  - cron: '30 17 * * SUN-SAT'
     
-on: workflow_dispatch
+#on: workflow_dispatch
     
 permissions:
   contents: write
