@@ -1,10 +1,10 @@
 name: run main_rockford.py
 
-on:
-  schedule:
-  - cron: '30 17 * * SUN-SAT'
+#on:
+  #schedule:
+  #- cron: '30 17 * * SUN-SAT'
     
-#on: workflow_dispatch
+on: workflow_dispatch
     
 permissions:
   contents: write
