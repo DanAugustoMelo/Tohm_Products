@@ -2851,3 +2851,8 @@
 2024-08-08 18:44:41,625 - __main__ - INFO - Conexão com SQL Azure fechada.
 2024-08-08 18:44:42,537 - __main__ - INFO - Planilha salva com sucesso.
 2024-08-08 18:44:42,537 - __main__ - INFO - Processo concluído com sucesso.
+2024-08-09 17:32:42,224 - __main__ - INFO - Token value: 1234
+2024-08-09 17:32:44,514 - __main__ - INFO - Conexão com SQL Azure estabelecida com sucesso.
+2024-08-09 17:32:44,515 - __main__ - ERROR - Erro ao configurar planilhas: [Errno 2] No such file or directory: '03.Input_links_Bomber.xlsx'
+2024-08-09 17:32:44,515 - __main__ - ERROR - Erro durante a execução do processo: Falha ao configurar as planilhas.
+2024-08-09 17:32:44,515 - __main__ - INFO - Processo concluído com sucesso.
