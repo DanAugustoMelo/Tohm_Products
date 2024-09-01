@@ -1945,3 +1945,7 @@
 2024-08-31 18:42:06,615 - __main__ - INFO - Conexão com SQL Azure fechada.
 2024-08-31 18:42:07,514 - __main__ - INFO - Planilha salva com sucesso.
 2024-08-31 18:42:07,514 - __main__ - INFO - Processo concluído com sucesso.
+2024-09-01 17:31:52,807 - __main__ - INFO - Token value: 1234
+2024-09-01 17:31:54,154 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'admingeral'. (18456) (SQLDriverConnect)")
+2024-09-01 17:31:54,155 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2024-09-01 17:31:54,155 - __main__ - INFO - Processo concluído com sucesso.
