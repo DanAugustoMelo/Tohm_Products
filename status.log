@@ -1979,3 +1979,4 @@
 2024-09-03 17:36:12,326 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'admingeral'. (18456) (SQLDriverConnect)")
 2024-09-03 17:36:12,326 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2024-09-03 17:36:12,326 - __main__ - INFO - Processo concluído com sucesso.
+2024-09-03 17:38:52,133 - __main__ - INFO - Token value: 1234
