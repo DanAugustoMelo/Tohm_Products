@@ -2014,3 +2014,7 @@
 2024-09-06 17:31:54,967 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'admingeral'. (18456) (SQLDriverConnect)")
 2024-09-06 17:31:54,967 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2024-09-06 17:31:54,967 - __main__ - INFO - Processo concluído com sucesso.
+2024-09-06 17:34:41,657 - __main__ - INFO - Token value: 1234
+2024-09-06 17:34:43,081 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'admingeral'. (18456) (SQLDriverConnect)")
+2024-09-06 17:34:43,081 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2024-09-06 17:34:43,082 - __main__ - INFO - Processo concluído com sucesso.
