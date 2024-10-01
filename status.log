@@ -2335,3 +2335,7 @@
 2024-09-30 18:45:01,143 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'admingeral'. (18456) (SQLDriverConnect)")
 2024-09-30 18:45:01,143 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2024-09-30 18:45:01,143 - __main__ - INFO - Processo concluído com sucesso.
+2024-10-01 17:35:56,722 - __main__ - INFO - Token value: 1234
+2024-10-01 17:36:11,917 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+2024-10-01 17:36:11,917 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2024-10-01 17:36:11,917 - __main__ - INFO - Processo concluído com sucesso.
