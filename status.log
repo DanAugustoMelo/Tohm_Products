@@ -2348,3 +2348,7 @@
 2024-10-01 18:45:08,097 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
 2024-10-01 18:45:08,097 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2024-10-01 18:45:08,097 - __main__ - INFO - Processo concluído com sucesso.
+2024-10-02 17:34:36,965 - __main__ - INFO - Token value: 1234
+2024-10-02 17:34:52,122 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+2024-10-02 17:34:52,123 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2024-10-02 17:34:52,123 - __main__ - INFO - Processo concluído com sucesso.
