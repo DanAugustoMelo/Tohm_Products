@@ -2773,3 +2773,7 @@
 2024-11-03 17:36:09,882 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2024-11-03 17:36:09,882 - __main__ - INFO - Processo concluído com sucesso.
 2024-11-03 17:38:31,144 - __main__ - INFO - Token value: 1234
+2024-11-03 18:42:27,804 - __main__ - INFO - Token value: 1234
+2024-11-03 18:42:43,044 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+2024-11-03 18:42:43,044 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2024-11-03 18:42:43,044 - __main__ - INFO - Processo concluído com sucesso.
