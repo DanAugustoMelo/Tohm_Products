@@ -6544,3 +6544,7 @@
 2025-08-21 18:48:23,675 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
 2025-08-21 18:48:23,675 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2025-08-21 18:48:23,676 - __main__ - INFO - Processo concluído com sucesso.
+2025-08-22 17:37:47,451 - __main__ - INFO - Token value: 1234
+2025-08-22 17:37:47,465 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-08-22 17:37:47,465 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2025-08-22 17:37:47,465 - __main__ - INFO - Processo concluído com sucesso.
