@@ -6670,3 +6670,7 @@
 2025-08-31 17:36:39,290 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
 2025-08-31 17:36:39,291 - __main__ - INFO - Processo concluído com sucesso.
 2025-08-31 17:39:28,614 - __main__ - INFO - Token value: 1234
+2025-08-31 18:45:34,323 - __main__ - INFO - Token value: 1234
+2025-08-31 18:45:34,325 - __main__ - ERROR - Erro ao conectar ao SQL Azure: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-08-31 18:45:34,325 - __main__ - ERROR - Erro durante a execução do processo: Falha ao conectar ao SQL Azure.
+2025-08-31 18:45:34,325 - __main__ - INFO - Processo concluído com sucesso.
